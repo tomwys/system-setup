@@ -33,4 +33,4 @@ function install_from_deb {
         fi
 	sudo gdebi -n $1
 }
-for deb in $(find install_packages -name '*.deb'); do install_from_deb ./$deb; done
+for deb in $(find -L install_packages -name '*.deb' | grep -v exclude); do install_from_deb ./$deb; done
