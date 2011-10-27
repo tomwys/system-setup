@@ -1,5 +1,12 @@
 eclipse
+gettext
 git
 gitg
 gource
 pgadmin3
+openjdk-7-jdk
+openjdk-7-jre
+openjdk-6-jdk
+openjdk-6-jre
+ia32-libs
+translate-toolkit
